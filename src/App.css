@@ -77,4 +77,14 @@ align-items: center;
   .nav-links{
     display: none;
   }
+  #home-page {
+    height: 50vh;
+    width:100vh;
+    background: url('images/home1.jpg');
+    background-position-y:-250px;
+    background-position-x: center;
+    margin:0;
+    padding: 0;
+    align-content: center;
+  }
 }
