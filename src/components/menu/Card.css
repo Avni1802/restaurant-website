@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&family=Raleway:ital,wght@0,900;1,400&family=Satisfy&display=swap');
+
+.card{
+    font-family: 'Satisfy', cursive;
+    background: rgba(15, 5, 7, 0.562);
+    align-items: center;
+    width: 350px;
+    height: 470px;
+    padding: 5px;
+    margin: 20px;
+    border-radius: 25px;
+    color: rgb(253, 244, 253);
+    font-size: 16px;
+}
+
+.card:hover{
+    height: 500px;
+    width: 400px;
+    transition: 0.5s;
+}
+
+.image{
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    margin-bottom: 0;
+    border-radius: 25px;
+    padding: 25px;
+}
+
+.menu{
+    margin: 30px;
+    margin-bottom: 0;
+    padding: 10px;
+    padding-bottom: 0;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    align-items: center;
+    overflow-y:scroll;
+    height: 76vh;
+    transition: 0.5s;
+
+}
+body{
+    scrollbar-track-color: black;
+
+}
+
+
+
+.search-form {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.searchBar{
+    padding: 2vh 0 4vh 0;
+    width:100%;
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+    background: rgb(255, 255, 255);
+
+}
+
+.search-bar{
+    width: 50%;
+    height: 4vh;
+    border:2px solid rgb(29, 14, 14);
+    border-radius:25px;
+    outline: none;
+}
+::-webkit-scrollbar {
+    width: 12px;
+    margin: 0;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px transparent; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:  rgba(15, 5, 7, 0.562); 
+  }
+
+  
+
+.search-button {
+    background-image: linear-gradient(to right, white 0%, rgba(15, 5, 7, 0.733) 100%);
+    height: 4vh;
+    width:15%;
+    border-radius:25px;
+
+}
+
+#menus{
+    background-image: url('../../images/menu1.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    scrollbar-color: green red;
+
+}
