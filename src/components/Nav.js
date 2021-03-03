@@ -20,7 +20,7 @@ function Nav() {
               flicker={false}>
           </Sparkles>
 
-        <h1>Logo</h1>
+        <h1 id="logo">Giriraj</h1>
         <ul className="nav-links">
             <Link style={navStyle} to="/" ><li>Home</li></Link>
             <Link style={navStyle} to="/menu"><li>Menu</li></Link>

@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&family=Oleo+Script+Swash+Caps&display=swap');
+
+
+#logo{
+  font-family:'Oleo Script';
+  border: 10px double rgb(0, 0, 0);
+  color: black;
+  padding: 0px 1.5vh 0px 1.5vh;
+  margin: 0 5vh;
+  background-color:rgba(228, 137, 19, 0.747);
+}
+
+
 .App {
   text-align: center;
 }
